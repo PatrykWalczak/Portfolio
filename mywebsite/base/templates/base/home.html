@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    <title> Portfolio - Patryk Walczak </title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-success" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/zdjecie.jpg' %}" >
+                    <hr>
+                    <h3>
+                        Cześć!
+
+                    </h3>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-success">
+                    <h4>O sobie</h4>
+                    <hr>
+                    <p>
+                        Nazywam się Patryk Walczak.<br>
+                        Studiuję informatykę - jestem na ostatnim roku studiów inżynierskich.
+                        Bardzo dobre wyniki w nauce pozwoliły mi uzyskać stypendium rektora, które przeznaczam na rozwój swoich zainersowań.
+                        Poza obowiązkami wynikającymi z nauki oraz pracy zawodowej, wolny czas poświęcam na szlifowanie umiejętnośc z zakresu tworzenia stron internetowych.
+                        Moim największym marzeniem jest zostać web developerem.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100 border-success">
+                    <h4> Doświadczenie </h4>
+                    <hr>
+                    <p>
+                        Pracuję jako informatyk w firmie telekomunikacyjnej,
+                        obszary, w których swobodnie się poruszam to sieć LAN/WAN, jednak chciałbym uczyć się i zdobywać doświadczenie jako programista w języku Python.
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100 border-success">
+                    <h4> Umiejętności </h4>
+                    <hr>
+                    <p> Python, podstawy Django, znajomość środowiska PyCharm, HTML5, sieć LAN/WAN, IPTV, HFC, VLAN,   </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100 border-success">
+                    <h4> Linki </h4>
+                    <hr>
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com/patryk.walczak3321" target="_blank"><img class="social" src="{% static 'images/facebook.jpg' %}"></a> </li>
+                        <li><a href="https://www.linkedin.com/in/patryk-walczak-439251193/" target="_blank"><img class="social" src="{% static 'images/linkedin.jpg' %}"></a></li>
+                        <li><a href="mailto:walczak.patryk33@gmail.com" target="_blank"><img class="social" src="{% static 'images/gmail.jpg' %}"></a></li>
+                        <li><a href="https://github.com/WalczakPatryk" target="_blank"><img class="social" src="{% static 'images/github.png' %}"></a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100 border-success">
+                    <h4> Cele długoterminowe </h4>
+                    <hr>
+                    <p> Moim głownym celem zawodowym jest znalezienie pracy, która da mi możliwość rozwoju
+                    i pobłębienia umiejętności programistycznych.
+                    W przyszłości chciałbym zajmować się tworzeniem stron internetowych z wykorzystaniem odpowiednich technologii.
+                    Chcę się skupić na nauce programowania w języku Python wraz z frameworkiem Django.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

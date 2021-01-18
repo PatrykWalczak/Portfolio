@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('base.urls'))  # include powoduje pobranie wszystkich URL'S w APP base
+    path('', include('base.urls'))
 ]
